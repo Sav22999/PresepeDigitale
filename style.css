@@ -1,0 +1,148 @@
+/*importo 3 tipi di font aggiuntivi, in modo tale che funzionino su tutti i dispositivi anche se non li hanno installati ==> "web font"*/
+@font-face {
+	font-family:'GothamBook';   
+	src: url('font/GothamBook.ttf');
+	format('truetype');
+}
+
+@font-face {
+	font-family:'ChalkDust';   
+	src: url('font/ChalkDust.ttf');
+	format('truetype');
+}
+
+@font-face {
+	font-family:'LucidaHandwriting';   
+	src: url('font/LucidaHandwriting.ttf');
+	format('truetype');
+}
+
+body
+{
+    background-color:white;
+    background-image:url("img/sfondo.gif");
+    background-position:center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family:GothamBook;
+    color:black;
+}
+html
+{
+    height:100%
+}
+/*menu e sottomenu*/
+#menu
+{
+    background-color:red;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    width:auto;
+    height:50px;
+    opacity:.85;
+    text-align:center;
+    font-family:inherit;
+}
+#submenu
+{
+    background-color:#FF2222;
+    position:fixed;
+    top:50px;
+    left:0px;
+    right:0px;
+    width:auto;
+    height:80px;
+    opacity:.80;
+    text-align:center;
+    font-family:inherit;
+    display:none;
+}
+/*sottomenu nascosti*/
+#tradizioni_submenu, #canti_submenu, #natale_nel_mondo_submenu, #riferimenti_biblici_submenu
+{
+    display:none;
+}
+
+/*stile del contenuto, quindi di tutto quello che viene mostrato sotto il menù*/
+#contenuto
+{
+    margin-top:50px;
+    width:54%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:GothamBook;
+    font-size:32px;
+}
+
+/*stile dei bottoni del menu e dei sottomenu*/
+.bottone_menu, .bottone_submenu
+{
+    background-color:red;
+    border:0px solid red;
+    color:white;
+    height:100%;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:16px;
+    cursor:pointer;
+    font-family:inherit;
+}
+.bottone_submenu
+{
+    background-color:#FF2222;
+    background-size:auto 80%;
+    background-position:center;
+    background-repeat:no-repeat;
+    font-size:14px;
+    padding-top:50px;
+}
+.bottone_menu:hover, .bottone_submenu:hover
+{
+    background-color:#EE0000;
+}
+/*stile del bottone HOME*/
+#home
+{
+    background-image:url('img/home.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:40px 40px;
+}
+/*titoli delle pagine contenuto*/
+h1, h2
+{
+    font-family:LucidaHandwriting;
+    color:red;
+    font-size:50px;
+    text-align:center;
+}
+h2
+{
+    font-size:40px;
+}
+.testo,.opzioni
+{
+    font-family:ChalkDust;
+    font-size:26px;
+}
+
+/*visualizza nella parte bassa della pagina i re magi o babbo natale*/
+#re_magi, #babbo
+{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:150px;
+    background-image:url("img/re_magi.gif");
+    background-position:bottom;
+    background-size:auto 100%;
+    background-repeat:no-repeat;
+}
+#babbo
+{
+    background-image:url("img/babbo_natale.gif");
+}
