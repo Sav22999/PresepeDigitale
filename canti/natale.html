@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Presepe informatico</title>
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button" value=" " id="home" class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>A Natale puoi</h1>
+            <!--video-->
+            <center>
+            <video src="../video/a_natale_puoi.mp4" width="80%" autoplay nocontrols loop>
+                Il web browser che si sta utilizzando non supporta la riproduzione video di html5
+            </video>
+            </center>
+            <div style="text-align: left;font-size:16px;margin-left:10%;float:left;width:30%;"> 
+                <p>
+                    A Natale puoi
+                    <br/>
+                    fare quello che non puoi fare mai:
+                    <br/>
+                    riprendere a giocare,
+                    <br/>
+                    riprendere a sognare,
+                    <br/>
+                    riprendere quel tempo
+                    <br/>
+                    che rincorrevi tanto.
+                    <br/>
+                </p>                
+                <p>
+                    È Natale e a Natale si può fare di più,
+                    <br/>
+                    è Natale e a Natale si può amare di più,
+                    <br/>
+                    è Natale e a Natale si può fare di più
+                    <br/>
+                    per noi:
+                    <br/>
+                    a Natale puoi.
+                </p>
+                <p>
+                    A Natale puoi
+                    <br/>
+                    dire ciò che non riesci a dire mai:
+                    <br/>
+                    che bello è stare insieme,
+                    <br/>
+                    che sembra di volare,
+                    <br/>
+                    che voglia di gridare
+                    <br/>
+                    quanto ti voglio bene.
+                </p>
+                <p>
+                    È Natale e a Natale si può fare di più,
+                    <br/>
+                    è Natale e a Natale si può amare di più,
+                    <br/>
+                    è Natale e a Natale si può fare di più
+                    <br/>
+                    per noi:
+                    <br/>
+                    a Natale puoi.
+                    <br/>
+                    È Natale e a Natale si può amare di più,
+                    <br/>
+                    è Natale e a Natale si può fare di più
+                    <br/>
+                    per noi:
+                    <br/>
+                    a Natale puoi.
+                </p>
+            </div> 
+            <div style="text-align:left;float:right;font-size:16px;margin-left:5%;width:45%;"> 
+                <p>
+                    Luce blu,
+                    <br/>
+                    c'è qualcosa dentro l'anima che brilla di più:
+                    <br/>
+                    è la voglia che hai d'amore,
+                    <br/>
+                    che non c'è solo a Natale,
+                    <br/>
+                    che ogni giorno crescerà,
+                    <br/>
+                    se lo vuoi.
+                </p>
+                <p>
+                    A Natale puoi.
+                    <br/>
+                    </p>
+                    <p> È Natale e a Natale si può fare di più,
+                    <br/>
+                    è Natale e a Natale si può amare di più,
+                    <br/>
+                    è Natale e a Natale si può fare di più,
+                    <br/>
+                    è Natale e da Natale puoi fidarti di più.
+                </p>
+                <p>
+                    A Natale puoi
+                    <br/>
+                    puoi fidarti di più.
+                    <br/>
+                    </p>
+                    <p>
+                    A Natale puoi.
+                </p>
+            </div>
+            <!--Contenuto dopo il video-->
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->

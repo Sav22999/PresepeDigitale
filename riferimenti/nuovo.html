@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Presepe informatico</title>
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button" value=" " id="home" class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>Citazioni tratte dal Nuovo Testamento</h1>
+            <!--Contenuto della pagina -> carattere ChalkDust-->
+            <div  style="font-size:16px; margin-left:10%;float: left; width: 30%;"> 
+                  <p style=" margin:20px;text-align: justify;">Luca 1,31</p> 
+                  <p>Ecco concepirai un figlio,<br> lo darai alla luce e lo chiamerai Gesù.</p>
+                  <p style=" margin:0px;text-align: justify;">Luca 2,8</p>
+                  <p> C'erano in quella regione alcuni pastori che<br> vegliavano di notte facendo la guardia al loro gregge.</p>
+                  <p style=" margin:0px;text-align: justify;">Ebrei 1,1-2</p> 
+                  <p><b>1</b> Dio, che aveva già parlato nei tempi antichi molte volte e in diversi modi ai padri per mezzo dei profeti, ultimamente, <br><b>2 </b>in questi giorni, ha parlato a noi per mezzo del Figlio, che ha costituito erede di tutte le cose e per mezzo del quale ha fatto anche il mondo.
+                  </p>
+                  <p style=" margin:0px;text-align: justify;">Giovanni 6</p>
+                  <p><b>1</b> Dopo questi fatti, Gesù andò all'altra riva del mare di Galilea, cioè di Tiberìade, <br><b>2</b> e una grande folla lo seguiva, vedendo i segni che faceva sugli infermi. <br><b>3</b> Gesù salì sulla montagna e là si pose a sedere con i suoi discepoli. <br><b>4</b> Era vicina la Pasqua, la festa dei Giudei.<br><b>5</b> Alzati quindi gli occhi, Gesù vide che una grande folla veniva da lui e disse a Filippo: «Dove possiamo comprare il pane perché costoro abbiano da mangiare?». <br><b>6 </b>Diceva così per metterlo alla prova; egli infatti sapeva bene quello che stava per fare. <br><b>7</b> Gli rispose Filippo: «Duecento denari di pane non sono sufficienti neppure perché ognuno possa riceverne un pezzo». <br><b>8</b> Gli disse allora uno dei discepoli, Andrea, fratello di Simon Pietro: <br><b>9 </b>«C'è qui un ragazzo che ha cinque pani d'orzo e due pesci; ma che cos'è questo per tanta gente?». <br><b>10 </b>Rispose Gesù: «Fateli sedere». C'era molta erba in quel luogo. Si sedettero dunque ed erano circa cinquemila uomini. <br><b>11</b> Allora Gesù prese i pani e, dopo aver reso grazie, li distribuì a quelli che si erano seduti, e lo stesso fece dei pesci, finché ne vollero. <br><b>12</b> E quando furono saziati, disse ai discepoli: «Raccogliete i pezzi avanzati, perché nulla vada perduto». <br><b>13</b>Li raccolsero e riempirono dodici canestri con i pezzi dei cinque pani d'orzo, avanzati a coloro che avevano mangiato.
+                  <br><b>14</b> Allora la gente, visto il segno che egli aveva compiuto, cominciò a dire: «Questi è davvero il profeta che deve venire nel mondo!». <br><b>15</b> Ma Gesù, sapendo che stavano per venire a prenderlo per farlo re, si ritirò di nuovo sulla montagna, tutto solo.
+                  <br><b>16</b> Venuta intanto la sera, i suoi discepoli scesero al mare <br><b>17</b> e, saliti in una barca, si avviarono verso l'altra riva in direzione di Cafarnao. Era ormai buio, e Gesù non era ancora venuto da loro. <br><b>18</b> Il mare era agitato, perché soffiava un forte vento. <br><b>19</b> Dopo aver remato circa tre o quattro miglia, videro Gesù che camminava sul mare e si avvicinava alla barca, ed ebbero paura. <br><b>20</b> Ma egli disse loro: «Sono io, non temete». <br><b>21</b> Allora vollero prenderlo sulla barca e rapidamente la barca toccò la riva alla quale erano diretti.
+                  <br><b>22</b> Il giorno dopo, la folla, rimasta dall'altra parte del mare, notò che c'era una barca sola e che Gesù non era salito con i suoi discepoli sulla barca, ma soltanto i suoi discepoli erano partiti. <br><b>23</b> Altre barche erano giunte nel frattempo da Tiberìade, presso il luogo dove avevano mangiato il pane dopo che il Signore aveva reso grazie. <br><b>24</b> Quando dunque la folla vide che Gesù non era più là e nemmeno i suoi discepoli, salì sulle barche e si diresse alla volta di Cafarnao alla ricerca di Gesù. <br><b>25</b> Trovatolo di là dal mare, gli dissero: «Rabbì, quando sei venuto qua?».
+                  <br><b>26</b> Gesù rispose: «In verità, in verità vi dico, voi mi cercate non perché avete visto dei segni, ma perché avete mangiato di quei pani e vi siete saziati. <br><b>27</b> Procuratevi non il cibo che perisce, ma quello che dura per la vita eterna, e che il Figlio dell'uomo vi darà. Perché su di lui il Padre, Dio, ha messo il suo sigillo». <br><b>28</b> Gli dissero allora: «Che cosa dobbiamo fare per compiere le opere di Dio?». <br><b>29</b> Gesù rispose: «Questa è l'opera di Dio: credere in colui che egli ha mandato».
+                  <br><b>30</b> Allora gli dissero: «Quale segno dunque tu fai perché vediamo e possiamo crederti? Quale opera compi? <br><b>31</b> I nostri padri hanno mangiato la manna nel deserto, come sta scritto: Diede loro da mangiare un pane dal cielo». <br><b>32</b> Rispose loro Gesù: «In verità, in verità vi dico: non Mosè vi ha dato il pane dal cielo, ma il Padre mio vi dà il pane dal cielo, quello vero; <br><b>33</b> il pane di Dio è colui che discende dal cielo e dà la vita al mondo». <br><b>34 </b>Allora gli dissero: «Signore, dacci sempre questo pane». <br><b>35</b> Gesù rispose: «Io sono il pane della vita; chi viene a me non avrà più fame e chi crede in me non avrà più sete. </p>
+            </div> 
+            <div style="float: right; font-size:16px;margin-left:5%;width: 45%;"> 
+                  <p><b>36</b> Vi ho detto però che voi mi avete visto e non credete.<br> <b>37 </b>Tutto ciò che il Padre mi dà, verrà a me;<br> colui che viene a me, non lo respingerò,<br><b> 38</b> perché sono disceso dal cielo <br>non per fare la mia volontà,<br> ma la volontà di colui che mi ha mandato.<br><b> 39</b> E questa è la volontà di colui che mi ha mandato,<br> che io non perda nulla di quanto egli mi ha dato,<br> ma lo risusciti nell'ultimo giorno. <br><b>40</b> Questa infatti è la volontà del Padre mio,<br> che chiunque vede il Figlio e crede <br>in lui abbia la vita eterna; <br>io lo risusciterò nell'ultimo giorno».<br>
+                  <b>41</b> Intanto i Giudei mormoravano di lui <br>perché aveva detto:<br> «Io sono il pane disceso dal cielo».<br> <b>42</b> E dicevano: «Costui non è forse Gesù, <br>il figlio di Giuseppe? <br>Di lui conosciamo il padre e la madre.<br> Come può dunque dire: <br>Sono disceso dal cielo?».<br>
+                  <b>43</b> Gesù rispose: «Non mormorate tra di voi.<br> <b>44 </b>Nessuno può venire a me,<br> se non lo attira il Padre che mi ha mandato;<br> e io lo risusciterò nell'ultimo giorno.<br> <b>45</b> Sta scritto nei profeti:<br> E tutti saranno ammaestrati da Dio.<br> Chiunque ha udito il Padre<br> e ha imparato da lui,<br> viene a me. <br><b>46</b> Non che alcuno abbia visto il Padre,<br> ma solo colui che viene da Dio <br>ha visto il Padre.<br> <b>47</b> In verità, in verità vi dico:<br> chi crede ha la vita eterna.<br>
+                  <b>48</b> Io sono il pane della vita.<br> <b>49</b> I vostri padri hanno mangiato la manna<br> nel deserto e sono morti; <br><b>50 </b>questo è il pane che discende dal cielo, <br>perché chi ne mangia non muoia.<br> <b>51</b> Io sono il pane vivo,<br> disceso dal cielo.<br> Se uno mangia di questo pane vivrà in eterno<br> e il pane che io darò è la mia carne<br> per la vita del mondo».<br>
+                  <b>52</b> Allora i Giudei si misero a discutere tra di loro: <br>«Come può costui darci la sua carne da mangiare?».<br> <b>53</b> Gesù disse: «In verità, in verità vi dico:<br> se non mangiate la carne del Figlio dell'uomo<br> e non bevete il suo sangue,<br> non avrete in voi la vita.<br> <b>54</b> Chi mangia la mia carne<br> e beve il mio sangue ha la vita eterna<br> e io lo risusciterò nell'ultimo giorno.<br> <b>55</b> Perché la mia carne è vero cibo<br> e il mio sangue vera bevanda.<br> <b>56 </b>Chi mangia la mia carne e beve il mio sangue<br> dimora in me e io in lui.<br><b> 57 </b>Come il Padre, che ha la vita,<br> ha mandato me e io vivo per il Padre, <br>così anche colui che mangia di me vivrà per me.<br> <b>58</b> Questo è il pane disceso dal cielo,<br> non come quello che mangiarono <br>i padri vostri e morirono.<br> Chi mangia questo pane vivrà in eterno».<br>
+                  <b>59</b> Queste cose disse Gesù, <br>insegnando nella sinagoga a Cafarnao.<br> <b>60</b> Molti dei suoi discepoli, dopo aver ascoltato,<br> dissero: «Questo linguaggio è duro;<br> chi può intenderlo?».<br><b> 61</b> Gesù, conoscendo dentro di sé <br>che i suoi discepoli proprio di questo mormoravano,<br> disse loro: «Questo vi scandalizza?<br> <b>62</b> E se vedeste il Figlio dell'uomo<br> salire là dov'era prima? <br><b>63 </b>È lo Spirito che dà la vita,<br> la carne non giova a nulla;<br> le parole che vi ho dette sono spirito e vita.<br> <b>64</b> Ma vi sono alcuni tra voi che non credono». <br>Gesù infatti sapeva fin da principio<br> chi erano quelli che non credevano <br>e chi era colui che lo avrebbe tradito.<br> <b>65</b> E continuò: «Per questo vi ho detto <br>che nessuno può venire a me, <br>se non gli è concesso dal Padre mio».<br>
+                  <b>66</b> Da allora molti dei suoi discepoli <br>si tirarono indietro e non andavano più con lui.<br>
+                  <b>67</b> Disse allora Gesù ai Dodici: <br>«Forse anche voi volete andarvene?».<br><b> 68</b> Gli rispose Simon Pietro:<br> «Signore, da chi andremo? Tu hai parole di vita eterna;<br> <b>69</b> noi abbiamo creduto <br>e conosciuto che tu sei il Santo di Dio».<br> <b>70</b> Rispose Gesù: «Non ho forse scelto io voi,<br> i Dodici? Eppure uno di voi è un diavolo!».<br> Egli parlava di Giuda, figlio di Simone Iscariota:<br> questi infatti stava per tradirlo,<br> uno dei Dodici.</p>
+                  <p style=" margin:0px;text-align: justify;">Filippesi 2, 1-11</p>
+                  <p><b>1</b> Se c'è pertanto qualche consolazione in Cristo,<br> se c'è conforto derivante dalla carità,<br> se c'è qualche comunanza di spirito, <br>se ci sono sentimenti di amore e di compassione,<br> <b>2</b> rendete piena la mia gioia con l'unione dei vostri spiriti,<br> con la stessa carità, con i medesimi sentimenti.<br> <b>3</b> Non fate nulla per spirito di rivalità o per vana gloria,<br> ma ciascuno di voi, <br>con tutta umiltà, consideri gli altri superiori a se stesso,<br> <b>4</b> senza cercare il proprio interesse, <br>ma anche quello degli altri.<br>
+                  <b>5</b> Abbiate in voi gli stessi sentimenti <br>che furono in Cristo Gesù,<br>
+                  <b>6</b> il quale, pur essendo di natura divina,<br>
+                  non considerò un tesoro geloso<br>
+                  la sua uguaglianza con Dio;<br>
+                  <b>7</b> ma spogliò se stesso,<br>
+                  assumendo la condizione di servo<br>
+                  e divenendo simile agli uomini;<br>
+                  apparso in forma umana,<br>
+                  <b>8</b> umiliò se stesso<br>
+                  facendosi obbediente fino alla morte<br>
+                  e alla morte di croce.<br>
+                  <b>9</b> Per questo Dio l'ha esaltato<br>
+                  e gli ha dato il nome<br>
+                  che è al di sopra di ogni altro nome;<br>
+                  <b>10</b> perché nel nome di Gesù<br>
+                  ogni ginocchio si pieghi<br>
+                  nei cieli, sulla terra e sotto terra;<br>
+                  <b>11 </b>e ogni lingua proclami<br>
+                  che Gesù Cristo è il Signore, a gloria di Dio Padre.</p>    
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->

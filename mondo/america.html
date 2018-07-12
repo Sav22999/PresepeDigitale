@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <title>Presepe informatico</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button" value=" " id="home" class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>Natale in America</h1>
+            <!--Contenuto della pagina -> carattere ChalkDust-->
+            <p class="testo">
+                Negli Stati Uniti d’America il Natale si festeggia si festeggia secondo le tradizioni europee. L’albero di Natale realizzato nel Rockefeller Center di New York è un po’ il simbolo del Natale americano. Altro simbolo, made in USA, è Santa Claus, il Babbo Natale vestito di rosso, apparso per la prima di fronte al grande pubblico, con le sembianze che oggi conosciamo, grazie ad una pubblicità della Coca Cola. Ecco perché Babbo Natale veste di rosso! Le decorazioni tipiche, come in Europa, sono agrifoglio e vischio, anche se l’esuberanza degli americani li porta ad addobbare le case con popcorn e caramelle. La cena di Natale tradizionale prevede tacchino arrosto con verdure e salse di mirtilli, il dolce tipico è il Christmas pudding con salsa al brandy e il Mince pies, ovvero una tortina di pasta frolla ripiena di frutta secca. Due curiosità secondo la tradizione popolare: le Mince pies sarebbero il cibo preferito di Babbo Natale e mentre se ne prepara il ripieno bisogna girare l’impasto in senso orario.<br><br>
+                In America del Sud le tradizioni sono molto simili all’America del Nord. In Bolivia il Natale coincide con la festa del raccolto assumendo una connotazione un po’ pagana, perché è questa l’occasione per pregare la Dea Madre Terra. In Brasile non si usa fare l’albero di Natale, ma il Presepio. I piatti tipici in Colombia e in Messico sono i tamales, bucce di mais ripiene di maiale. Un’altra ricetta sudamericana è l’Ajiaco, una zuppa di pollo fatta con più di 4 tipi di patate, il dolce tipico invece sono le frittelle ojuelas pasta di mais fritta con lo zucchero.
+            </p>
+            <div id="babbo"></div>
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->

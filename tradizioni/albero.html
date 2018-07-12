@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <title>Presepe informatico</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <audio src="../musica/astro_del_ciel.mp3" autoplay hidden loop></audio>
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button" value=" " id="home" class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>Le origini dell’Albero di Natale</h1>
+            <!--Contenuto della pagina -> carattere ChalkDust-->
+            <p class="testo"> 
+                L'albero come simbolo di vita, e talvolta anche di morte, era diffuso in tutte le culture,
+                anche prima della nascita del cristianesimo. 
+                Le immagini in alto sono raffigurazioni dell'"Albero della Vita” presenti  molto prima della nascita del cristianesimo.
+                Nella cultura cristiana l'albero si mescola spesso con il candelabro. Entrambi portano le luci che illuminano e che si spengono e, secondo alcune credenze, le luci rappresentavano le anime del Paradiso. L'antichissimo tema dell'Albero della vita si fonde anche con la croce di Cristo: è il legno che fiorisce e che fruttifica, come si vede in molte catacombe e battisteri paleocristiani e in questo quadro di Pacino di Bonaguida (1280-1340).
+            </p>
+            <h2>Origine e significato</h2>
+            <center>
+                <img src="../img/albero.jpg" />
+            </center>
+            <p class="testo">
+                Alla base dell'albero natalizio ci sono gli antichissimi usi, tipici di varie culture, di decorare i vari Alberi del Paradiso con nastri e oggetti colorati, fiaccole, piccole campane, animaletti votivi, e la credenza che le luci, che li illuminavano, corrispondessero ad altrettante anime. Allo stesso modo venivano ornati anche i vari Alberi cosmici con simboli del Sole, della Luna, dei Pianeti e delle stelle. In particolare l'abete era sacro a Odino, potente dio dei Germani.
+                L'abitudine di decorare alcuni alberi sempreverdi era diffusa già tra i Celti durante le celebrazioni relative al solstizio d'inverno. I Vichinghi dell'estremo Nord dell'Europa, per esempio, dove il sole “spariva” per settimane nel pieno dell'inverno, nella settimana precedente e successiva al giorno con la notte più lunga, si officiavano le solennità per auspicare il ritorno del sole e credevano che l'abete rosso fosse in grado di esprimere poteri magici, poiché non perdeva le foglie nemmeno nei geli dell'inverno: alberi di abete venivano tagliati e portati a casa, decorati con frutti, ricordando la fertilità che la primavera avrebbe ridato agli alberi. I Romani usavano decorare le loro case con rami di pino durante le Calende di gennaio. Un'antecedente dell'albero potrebbe essere l'antico rito pagano di portare in casa, prima del nuovo anno, un ramo beneaugurante. Nel Medioevo si diffonde la tradizione degli "Adam und Eva Spiele" (giochi di Adamo ed Eva) che prevedevano la ricostruzione nelle chiese dello scenario del paradiso in terra, proprio il 24 di dicembre, alla vigilia di Natale, con tanto di alberi di frutta, simboli dell'abbondanza e del mistero della vita.
+            </p>
+            <h2>Diffusione in Europa</h2>
+            <p class="testo">
+                Sembra, però,  che l'albero di Natale, così come viene usato oggi, sia nato a Tallinn, in Estonia nel 1441, quando fu eretto un grande abete nella piazza del Municipio, attorno al quale giovani scapoli, uomini e donne, ballavano insieme alla ricerca dell'anima gemella. Questa usanza venne poi ripresa in Germania: una cronaca di Brema del 1570 racconta di un albero che veniva decorato con mele, noci, datteri e fiori di carta. Anche la città di Riga (in Lettonia) è fra quelle che si proclamano sedi del primo albero di Natale: vi si trova infatti una targa scritta in otto lingue, secondo cui il "primo albero di capodanno" fu addobbato in questa città nel 1510. Un'altra notizia sull'uso dell'albero di Natale viene dall'Alsazia: una cronaca di Strasburgo annota nel 1605: "Per Natale i cittadini si portano in casa degli abeti ('Dannenbaumen' nel tedesco dell'epoca), li mettono nelle stanze, li ornano con rose di carta di vari colori, mele, zucchero, oggetti di similoro".
+                Nei secoli successivi, nelle aree protestanti, le ostie furono poi sostituite da dolci natalizi fatti in casa. Si aggiunse quindi la carta colorata, argentata o dorata, simbolo delle offerte dei magi d’Oriente e la “rosa di Natale”, simbolo del “germoglio che spunta dalla radice d’Isai”. Nelle regioni tedesche, in cui era diffusa l’arte vetraria, si aggiunsero più tardi anche le palle di vetro colorato, per dare maggiore luminosità all’albero e, per riprendere il motivo evangelico del “Cristo luce del mondo”, entrarono nell’uso anche le candele.<br><br>
+                Per molto tempo, la tradizione dell'albero di Natale rimase tipica delle regioni a nord delle Alpi. All'inizio, i cattolici la consideravano un uso protestante e solo nel '900 questa tradizione si diffuse anche nel mondo cattolico.
+                L’albero di natale può essere portato in casa o tenuto all'aperto, e viene preparato qualche giorno o qualche settimana prima di Natale (spesso nel giorno dell'Immacolata concezione) e rimosso dopo l'Epifania. Ad esempio nella tradizione milanese l'albero di natale viene preparato a Sant'Ambrogio, patrono di Milano, il 7 dicembre; mentre nella tradizione barese è allestito a San Nicola, patrono di Bari, il 6 dicembre. Soprattutto se l'albero viene collocato in casa, è tradizione che ai suoi piedi vengano collocati i regali di Natale impacchettati, in attesa del giorno della festa in cui potranno essere aperti.
+                </p>
+            <div id="babbo"></div>
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->

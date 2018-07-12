@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <title>Presepe informatico</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <audio src="../musica/astro_del_ciel.mp3" autoplay hidden loop></audio>
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button" value=" " id="home" class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>L’AVVENTO </h1>
+            <!--Contenuto della pagina -> carattere ChalkDust-->
+            <p class="testo">   
+                La parola avvento, significa “venuta”, nel linguaggio cristiano si riferisce alla venuta di Gesù Cristo. La liturgia della Chiesa dà il nome di Avvento alle quattro settimane che precedono il Natale, che sono un'opportunità per prepararci, nella speranza e nel pentimento, all'arrivo del Signore.
+                Il colore liturgico che viene usato in questo arco di tempo è il violetto.
+                Il periodo dell’avvento porta i fedeli cristiani a riflettere su una triplice finalità<br>
+                - Ricordare il passato: Celebrare e contemplare la nascita di Gesù a Betlemme. Il Signore è già venuto ed è nato a Betlemme. Questa è stata la sua venuta nella carne, una venuta piena di umiltà e povertà. Venne come uno di noi, uomo tra gli uomini. Questa fu la sua prima venuta.<br>
+                - Vivere il presente: Si tratta di vivere nel presente della nostra vita quotidiana la "presenza di Gesù Cristo" in noi e per noi e nel mondo. Vivere sempre vigilanti, camminando lungo le strade del Signore, nella giustizia e nell'amore.<br>
+                - Preparare il futuro: Si tratta di prepararci per la Parusía o seconda venuta di Gesù Cristo nella "maestà della sua gloria". Allora verrà come Signore e come Giudice di tutte le nazioni, e premierà con la vita eterna quanti hanno creduto in Lui e sono vissuti come figli fedeli del Padre e nell’amore ai fratelli. Aspettiamo la sua venuta gloriosa che ci porterà la salvezza e la vita eterna ormai libera dalle sofferenze.<br>
+            </p>
+            <h2>Che cos’è la “Parusia”?</h2>
+            <p class="testo">
+                Nel vangelo Gesù Cristo ci parla spesso della parusìa e ci dice che nessuno sa il giorno e né l’ora in cui succederà; per questa ragione la chiesa  nel periodo dell’avvento c’invita a prepararci per affrontare questo momento attraverso la revisione e la programmazione.<br><br>
+                1) Revisione: Approfittare di questo tempo per pensare a quello che di positivo o di negativo c’è nella nostra vita. È importante sapersi fermare per riflettere sulla nostra vita spirituale e la nostra relazione con Dio e col prossimo. Ogni giorno possiamo e dobbiamo essere migliori.<br><br>
+                2) Programmazione: L’Avvento è il tempo giusto anche per pensare a scelte di vita che ci aiutino a vivere la quotidianità (e non solo in prossimità del Natale) come veri figli di Dio, imparando a fare e a perseverare in scelte davvero evangeliche.<br>
+            </p>
+            <h2>La corona d’avvento</h2>
+            <p class="testo">
+                La corona d'Avvento è una tradizione che ha origini scandinave precristiane, accolta dalle chiese luterane e "battezzata" come candelabro d'Avvento. Piano piano è passata dal Nord Europa attraverso i cattolici d'oltralpe fino all'Italia settentrionale, diffondendosi a macchia d'olio in parrocchie, oratori e case private.
+                Ma cosa significa la corona dell'Avvento e come è fatta? Purtroppo sovente tocca vedere nelle chiese "accozzaglie" di candele o addirittura lampade a olio tra frasche di ogni genere o fiorellini, a volte senza nessun richiamo alla forma tonda della corona, e con colori d'ogni genere.
+                Ci sono molte candele dell’avvento, ognuna con un nome, colore e descrizione diversa:<br>
+            </p>
+            <center>
+                <img src="../img/candela1.gif">
+            </center>
+            <p class="testo">
+                La prima candela (di colore viola) si chiama " Candela del Profeta " ed è la candela della speranza. 
+                Ci rammenta che molti secoli prima della nascita del bambino Gesù, 
+                uomini saggi chiamati profeti predissero la sua venuta.
+                Un profeta di nome Michea predisse perfino che Gesù sarebbe Nato a Betlemme !
+            </p>
+            <center>
+                <img src="../img/candela1.gif">
+            </center>
+            <p class="testo"> 
+                La seconda candela (di colore viola) è chiamata " Candela di Betlemme " ,
+                candela della chiamata universale alla salvezza,
+                ci ricorda la piccola città in cui nacque il nostro Salvatore. 
+                "E tu, Betlemme, terra di Giuda, non sei davvero il più piccolo capoluogo di Giuda: 
+                da te uscirà infatti un capo che pascerà il mio popolo, Israele". 
+            </p>
+            <center>
+                <img src="../img/candela2.gif">
+            </center>
+            <p class="testo">
+                La terza candela (di colore rosa) è chiamata la " Candela dei Pastori ", candela della gioia, 
+                poiché furono i pastori i primi ad adorare il bambino Gesù e a diffondere la buona novella. 
+            </p>
+            <center>
+                <img src="../img/candela1.gif">
+            </center>
+            <p class="testo">
+                La quarta candela (di colore viola) è la " Candela degli Angeli " per onorare gli angeli 
+                e la meravigliosa novella che portarono agli uomini in quella notte mirabile. 
+            </p>
+            <center>
+                <img src="../img/candela3.gif">
+            </center>
+            <p class="testo">
+                La quinta candela, al centro, e quella che si accende la notte di Natale, ed è bianca.
+                Rappresenta Gesù, Luce del mondo.
+                " Veniva nel mondo la luce vera, quella che illumina ogni uomo. "
+            </p>
+            <div id="re_magi"></div>
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->

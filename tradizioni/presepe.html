@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <title>Presepe informatico</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <audio src="../musica/astro_del_ciel.mp3" autoplay hidden loop></audio>
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button"  value=" " id="home"  class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <video src="../video/presepe.mp4" width="100%" muted autoplay nocontrols loop style="margin-top: 100px;">
+                Il web browser che si sta utilizzando non supporta la riproduzione video di html5
+            </video>
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>Il Presepe</h1>
+            <!--Contenuto della pagina -> carattere ChalkDust-->
+            <p class="testo">
+                Il termine deriva dal latino praesaepe, cioè greppia, mangiatoia, ma anche recinto chiuso dove venivano custoditi ovini e caprini; il termine è composto da prae (innanzi) e saepes (recinto), ovvero luogo che ha davanti un recinto. Un'altra ipotesi fa nascere il termine da praesepire cioè recingere.<br><br>
+                Il presepe (o presepio) è una rappresentazione della nascita di Gesù, che ha avuto origine da tradizioni medievali; inizialmente italiana, l'usanza di allestire il presepio è diffusa oggi in tutti i paesi cattolici del mondo. Le prime fonti per la raffigurazione del presepe sono i 180 versetti dei Vangeli di Matteo e di Luca, cosiddetti "dell'infanzia", che riportano la nascita di Gesù avvenuta al tempo di re Erode, a Betlemme di Giudea, piccola borgata ma sin da allora nobile, perché aveva dato i natali a re Davide. Molti elementi del presepe, però, derivano dai Vangeli apocrifi e da altre tradizioni, come il protovangelo di Giacomo.<br><br>
+                Il presepe è una rappresentazione ricca di simboli. Alcuni di questi provengono direttamente dal racconto evangelico. Sono riconducibili al racconto di Luca la mangiatoia, l'adorazione dei pastori e la presenza di Angeli nel cielo. Altri elementi appartengono ad una iconografia propria dell'arte sacra: Maria ha un manto azzurro che simboleggia il cielo, San Giuseppe ha in genere un manto dai toni dimessi a rappresentare l'umiltà.<br><br>
+                Il presepe tradizionale è una complessa composizione plastica della Natività di Gesù Cristo, allestita durante il periodo natalizio; vi sono presenti statue formate di materiali vari e posizionate in un ambiente ricostruito in modo realistico. Vi compaiono tutti i personaggi e i luoghi della tradizione: la grotta o la capanna, la mangiatoia ove è posto Gesù bambino, i due sposi Giuseppe e Maria, i Re Magi, i pastori, le pecore e gli agnelli, il bue e l'asinello, gli angeli del Gloria in excelsis Deo. La statuina di Gesù Bambino viene collocata nella mangiatoia alla mezzanotte del giorno 25 dicembre, mentre le figure dei Re Magi vengono avvicinate ad adorare Gesù nel giorno dell'Epifania. Lo sfondo può raffigurare il cielo stellato oppure può essere uno scenario paesaggistico. A volte le varie tradizioni locali prevedono ulteriori personaggi.<br><br>
+                Molti particolari scenografici nei personaggi e nelle ambientazioni del presepe traggono inoltre ispirazione dai Vangeli apocrifi e da altre tradizioni. Il bue e l'asinello, ad esempio, simboli immancabili di ogni presepe, derivano dal cosiddetto protovangelo di Giacomo e da un'antica profezia di Isaia che scrive "Il bue ha riconosciuto il suo proprietario e l'asino la greppia del suo padrone"(Is 1, 3). Sebbene Isaia non si riferisse alla nascita del Cristo, l'immagine dei due animali venne utilizzata comunque come simbolo degli ebrei (rappresentati dal bue) e dei pagani (rappresentati dall'asino).<br><br>
+                Anche la stalla o la grotta in cui Maria e Giuseppe avrebbero dato alla luce il Messia non compare nei Vangeli canonici: sebbene Luca citi i pastori e la mangiatoia, nessuno dei quattro evangelisti parla esplicitamente di una grotta o di una stalla. In ogni caso a Betlemme la Basilica della Natività sorge intorno a quella che è indicata dalla tradizione come la grotta ove nacque Cristo e anche quest'informazione si trova nei Vangeli apocrifi. Tuttavia, l'immagine della grotta è un ricorrente simbolo mistico e religioso per molti popoli soprattutto del settore mediorientale.<br><br>
+                I Magi invece derivano dal Vangelo di Matteo e dal Vangelo armeno dell'infanzia. In particolare, quest'ultimo fornisce informazioni sul numero e il nome di questi sapienti orientali: il vangelo in questione fa i nomi di tre sacerdoti persiani (Melkon, Gaspar e Balthasar), anche se non manca chi vede in essi un persiano (recante in dono oro), un arabo meridionale (recante l'incenso) e un etiope (recante la mirra). Così i re magi entrarono nel presepe, sia incarnando le ambientazioni esotiche sia come simbolo delle tre popolazioni del mondo allora conosciuto, ovvero Europa, Asia e Africa. Anche il numero dei Magi fu piuttosto controverso. Fu definitivamente stabilito in tre, come i doni da loro offerti,  mentre prima di allora oscillava fra due e dodici.<br><br>
+                Tuttavia, alcuni aspetti derivano da tradizioni molto più recenti. Il presepe napoletano, per esempio, aggiunge alla scena molti personaggi popolari, osterie, commercianti e case tipiche dei borghi agricoli, tutti elementi palesemente anacronistici. Questa è comunque una caratteristica di tutta l'arte sacra, che, almeno fino al XX secolo, ha sempre rappresentato gli episodi della vita di Cristo con costumi e ambientazioni contemporanee all'epoca di realizzazione dell'opera. Anche questi personaggi sono spesso funzionali alla simbologia.<br><br>
+            </p>
+            <div id="re_magi"></div>
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->

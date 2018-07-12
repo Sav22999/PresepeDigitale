@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <title>Presepe informatico</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button" value=" " id="home" class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>Natale in Africa</h1>
+            <!--Contenuto della pagina -> carattere ChalkDust-->
+            <p class="testo">
+                In Africa convivono centinaia di idiomi e dialetti quindi come si dice “Buon Natale” in africano? Si dice Rehus-Beal-Ledeats in tigrino ed eritreo, Kisimusi è invece il Natale in Zimbabwe.<br>
+                Il Natale in Africa solitamente coincide con la fine della raccolta del cacao, motivo per cui non in tutti i paesi africani si festeggia il 25 dicembre, ma anche il 7 Gennaio, secondo il rito della Chiesa Copta ortodossa (nel calendario etiopico, infatti, l'anno ha 13 mesi, di cui i primi 12 di 30 giorni ed il 13° di 5 e ha inizio l'11 settembre).<br>
+                Per l’occasione i lavoratori tornano alle loro famiglie e i giovani girovagano per le strade dei villaggi o delle città cantando canzoni e inni natalizi. 
+                Nei paesi cristiani come il Kenya e il Ghana ci si reca in chiesa per assistere alle funzioni religiose. L’albero di Natale è uno dei simboli della festività, anche se a volte invece dell’abete, per ovvie ragioni climatiche, si addobba la palma, come in Liberia.<br>
+                Uno dei piatti tradizionali della cucina africana per Natale è il nyama choma, l’arrosto di capra. In Sud Africa il Natale cade in piena estate, quindi invece del “classico” Natale con la neve, si và tutti in spiaggia e si usano i fiori per decorare case e chiese. Si fa un pranzo all’aperto un po’ all’occidentale, a base di tacchino, roast beef, maialino da latte, riso giallo con uva passa, verdura e plum pudding.<br>
+                In Ghana, e Congo, invece, si mangiano riso e pasta di patate, manioca o mais, il fufu, zuppa di okra, polenta e carni.
+                In Egitto la notte di Natale si mangia il fata,che consiste in pane, riso, aglio e carne bollita. In Etiopia il giorno di Natale è il 7 gennaio e si mangiano la injera, una frittella di pasta acida come il pane e il Doro wat, uno stufato di pollo piccante, serviti in cesti decorati fatti a mano.<br><br>
+                In molti Paesi africani la coesistenza di culture religiose diverse ha dato vita a interessanti incontri. Ad esempio in Nigeria per Natale le famiglie si riuniscono attorno agli anziani e tutti i conoscenti, senza fare distinzioni tra i culti, sono invitati a partecipare alla cena della vigilia. In quella sera vige infatti l' abitudine di lasciare aperto l' uscio di casa per far si che chiunque si senta il benvenuto. La tradizione vuole che si scambino regali che spesso consistono in cibi sia crudi che cotti. Ogni famiglia riceve e offre molto più cibo di quanto in realtà se ne consumi e questa abbondanza è considerata di buon augurio.<br>
+                Nei giorni che precedono il Natale le ragazze vanno di casa in casa ballando e cantando accompagnate da tamburi. Usano annunciarsi con un biglietto i cui specificano il giorno in cui si esibiranno. Le danze proposte variano in base all' appartenenza etnica dei vari gruppi, come anche i canti che sono composti nella lingua locale.<br>
+                Dal 25 Dicembre in poi è la volta degli uomini che si esibiranno lungo le strade. Con i volti coperti da grosse maschere di legno, essi raffigurano vari personaggi legati al costume locale. Gli uomini si dividono in due gruppi: maschere danzanti dall'aspetto umano e maschere dall'aspetto più inquietante che sono temute da tutti, soprattutto dai bambini. Le maschere in tutte le culture sono oggetti che racchiudono in sè una grande potenza, in esse nulla è casuale. Infatti già nell'atto di fabbricazione si esegue un preciso rituale tramandato di generazione in generazione da artigiani specializzati ognuno nella costruzione di un particolare tipo; e anche nell'indossare e personificare le maschere nelle danze ad esse legate, si seguono norme tradizionali. Le maschere sono attive fino alla fine dell'anno: l'ultima notte, con vari strumenti, girano per le strade facendo un gran chiasso e si interrompono solo alle luci dell'alba del nuovo anno, giorno in cui le città sembrano deserte per il silenzio assoluto.<br>
+                Mentre il presepe è una tradizione importata di recente, l'albero è presente nelle celebrazioni natalizie africane già dai primi tempi delle missioni cristiane. La decorazione però non è come quella europea. Essa consiste in un intreccio di rami di palma, spesso disposti a formare un arco, su cui vengono applicati dei grandi fiori bianchi che sbocciano nel periodo natalizio. Questi fiori vengono raccolti dai bambini al mattino della vigilia tra non poche difficoltà in quanto si tratta di piante rampicanti dalle spine lunghe diversi centimetri. Chi invece desidera avere delle decorazioni più durature opta per un piccolo banano arricchito da nastri colorati e luci.<br><br>
+                La sera della vigilia si esegue una grandiosa fiaccolata che ha luogo dopo la messa di mezzanotte e che è caratterizzata dai canti religiosi cristiani, quasi sempre in inglese. La notte trascorre in compagnia fino al mattino, quando si inizia ad allestire un pranzo molto abbondante. Più famiglie si riuniscono per ammazzare un animale (agnello, capra, pecora o almeno un pollo). I due ingredienti che non possono mancare al pasto principale sono la carne ( cucinata in umido) e il riso bianco, ai quali si aggiungono cibi che appartengono alla tradizione familiare.
+            </p>
+            <div id="babbo"></div>
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->

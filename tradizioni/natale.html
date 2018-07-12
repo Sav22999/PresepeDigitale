@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script src="../jquery.js"></script>
+    <script src="../javascript.js"></script>
+    <title>Presepe informatico</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <audio src="../musica/astro_del_ciel.mp3" autoplay hidden loop></audio>
+  </head>
+  <body>
+    <div id="pagina">
+        <!--Menu delle pagine-->
+        <div id="menu">
+            <input type="button" value=" " id="home" class="bottone_menu" onclick="location.href='../index.html'" />
+            <input type="button" value="Tradizioni" class="bottone_menu" onclick="mostra_tradizioni()" />
+            <input type="button" value="Canti" class="bottone_menu" onclick="mostra_canti()" />
+            <input type="button" value="Natale nell'IIS Pentasuglia" class="bottone_menu" onclick="location.href='../natale_pentasuglia/index.html'" />
+            <input type="button" value="Natale nel mondo" class="bottone_menu" onclick="mostra_natalemondo()" />
+            <input type="button" value="Riferimenti biblici" class="bottone_menu" onclick="mostra_riferimentibiblici()" />
+        </div>
+        <div id="submenu">
+            <span id="tradizioni_submenu">
+                <!--sottomenu tradizioni-->
+                <input type="button" value="Il presepe" class="bottone_submenu" style="background-image:url('../img/presepe.png');" onclick="location.href='../tradizioni/presepe.html'" />
+                <input type="button" value="Babbo Natale" class="bottone_submenu" style="background-image:url('../img/babbo_natale.png');" onclick="location.href='../tradizioni/babbo.html'" />
+                <input type="button" value="L'albero di Natale" class="bottone_submenu" style="background-image:url('../img/albero_natale.png');" onclick="location.href='../tradizioni/albero.html'" />
+                <input type="button" value="Il Natale" class="bottone_submenu" style="background-image:url('../img/natale.png');" onclick="location.href='../tradizioni/natale.html'" />
+                <input type="button" value="L'avvento" class="bottone_submenu" style="background-image:url('../img/avvento.png');" onclick="location.href='../tradizioni/avvento.html'" />
+            </span>
+            <span id="canti_submenu">
+                <!--sottomenu canti-->
+                <input type="button" value="A Natale puoi" class="bottone_submenu" style="background-image:url('../img/a_natale_puoi.png');" onclick="location.href='../canti/natale.html'" />
+                <input type="button" value="Jingle bells" class="bottone_submenu" style="background-image:url('../img/jingle_bells.png');" onclick="location.href='../canti/jingle.html'" />
+                <input type="button" value="Jingle bells rock" class="bottone_submenu" style="background-image:url('../img/jingle_bells_rock.png');" onclick="location.href='../canti/jinglerock.html'" />
+                <input type="button" value="Tu scendi dalle stelle" class="bottone_submenu" style="background-image:url('../img/tu_scendi_dalle_stelle.png');" onclick="location.href='../canti/stelle.html'" />
+                <input type="button" value="Bianco Natale" class="bottone_submenu" style="background-image:url('../img/bianco_natale.png');" onclick="location.href='../canti/bianco.html'" />
+            </span>
+            <span id="natale_nel_mondo_submenu">
+                <!--sottomenu natale nel mondo-->
+                <input type="button" value="Europa" class="bottone_submenu" style="background-image:url('../img/europa.png');" onclick="location.href='../mondo/europa.html'" />
+                <input type="button" value="America" class="bottone_submenu" style="background-image:url('../img/america.png');" onclick="location.href='../mondo/america.html'" />
+                <input type="button" value="Asia" class="bottone_submenu" style="background-image:url('../img/asia.png');" onclick="location.href='../mondo/asia.html'" />
+                <input type="button" value="Africa" class="bottone_submenu" style="background-image:url('../img/africa.png');" onclick="location.href='../mondo/africa.html'" />
+                <input type="button" value="Oceania" class="bottone_submenu" style="background-image:url('../img/oceania.png');" onclick="location.href='../mondo/oceania.html'" />
+            </span>
+            <span id="riferimenti_biblici_submenu">
+                <!--sottomenu riferimenti biblici-->
+                <input type="button" value="Antico testamento" class="bottone_submenu" style="background-image:url('../img/antico_testamento.png');" onclick="location.href='../riferimenti/antico.html'" />
+                <input type="button" value="Nuovo testamento" class="bottone_submenu" style="background-image:url('../img/nuovo_testamento.png');" onclick="location.href='../riferimenti/nuovo.html'" />
+            </span>
+        </div>
+        <!--Contenuto delle pagine-->
+        <div id="contenuto">
+            <!--Titolo della pagina -> centrato con carattere LucidaHandwriting-->
+            <h1>IL NATALE</h1>
+            <!--Contenuto della pagina -> carattere ChalkDust-->
+            <p class="testo">        
+                Il Natale è una festa cristiana che celebra la nascita di Gesù ("Natività"): cade il 25 dicembre per la maggior parte delle Chiese cristiane occidentali e greco-ortodosse; per la cristianità orientale precalcedonese cade il 6 gennaio, e il 7 gennaio per le Chiese ortodosse slave, che seguono il calendario giuliano. Secondo il calendario liturgico, è una solennità di importanza superiore all'Ascensione e alla Pentecoste, ma inferiore alla Pasqua, la festa cristiana più importante. È comunque la festa più popolarmente sentita tra i cristiani; tuttavia, in tempi più recenti ha assunto tra le popolazioni di cultura occidentale anche un significato laico, legato allo scambio di doni, alla famiglia e a figure del folclorecome Babbo Natale. Sono strettamente legate alla festività la tradizione del presepe e dell'albero di Natale, entrambe di origine medioevale, la seconda più legata ai Paesi del Nord Europa. Il termine italiano "Natale" deriva dal latino cristiano Natale(m), per ellissi di diem natalem Chiristi ("giorno di nascita di Cristo") a sua volta da latino natalis derivato da natus ("nato"), participio perfetto del verbo nasci ("nascere").
+            </p>
+            <h2>IL NATALE NELLA TRADIZIONE ITALIANA</h2>
+            <p class="testo">
+                Nella tradizione cristiana, il Natale celebra la nascita di Gesù a Betlemme da Maria. Il racconto ci è pervenuto attraverso i vangeli secondo Lucae Matteo, che narrano l'annuncio dell'angelo Gabriele, la deposizione nella mangiatoia, l'adorazione dei pastori, la visita dei magi. Alcuni aspetti devozionali (la grotta, il bue e l'asino, i nomi dei Magi) risalgono invece a tradizioni successive e a racconti presenti in vangeli apocrifi. Il significato cristiano della festa risiede nella celebrazione della presenza di Dio. Con la nascita di Gesù, Dio per i cristiani non è più infatti un Dio distante, che si può solo intuire da lontano, ma è un Dio che si rivela ed entra nel mondo per rimanervi fino alla fine dei tempi. Per quanto riguarda la liturgia, nella Chiesa latina il giorno di Natale è caratterizzato da quattro messe:</p>
+                <ul class="opzioni">
+                    <li>La vespertina della vigilia</li>
+                    <li>Ad noctem (cioè la messa della notte)</li>
+                    <li>In aurora</li>
+                    <li>In die</li>
+                </ul>
+                <p class="testo">
+                Come tutte le solennità, il Natale ha una durata maggiore rispetto agli altri giorni del calendario liturgico e inizia infatti con i vespri della vigilia: il tempo liturgico del Natale si conta a partire dai primi vespri del 24 dicembre, per terminare con la domenica del Battesimo di Gesù, mentre il periodo precedente al Natale comprende le domeniche di Avvento.
+                </p>
+            <h2>IL NATALE AL DI FUORI DEL CRISTIANESIMO</h2>
+            <p class="testo">
+                Nel corso dell'ultimo secolo, con il progressivo secolarizzarsi dell'Occidente, e in particolar modo dell'Europa Settentrionale, il Natale ha continuato a rappresentare un giorno di festa anche per i non cristiani, assumendo significati diversi da quello religioso. In questo ambito, il Natale è generalmente vissuto come festa legata alla famiglia, alla solidarietà, allo scambio di regali e alla figura di Babbo Natale. Al tempo stesso la festa del Natale, con connotazioni di tipo secolare-culturale, ha conosciuto una crescente diffusione in molte aree del mondo, estendendosi anche in Paesi dove i cristiani sono piccole minoranze, come in India, Pakistan, Cina, Taiwan, Giappone e Malesia. Al di fuori del suo significato religioso, il Natale ha inoltre assunto nell'ultimo secolo una significativa rilevanza in termini commerciali ed economici, legata all'usanza dello scambio di doni. A titolo di esempio, negli Stati Uniti è stato stimato che circa un quarto di tutta la spesa personale venga effettuata nel periodo natalizio. 
+            </p>
+            <h2>TRADIZIONI NATALIZIE</h2>
+            <p class="testo">
+                Il Natale è una festa accompagnata da diverse tradizioni, sociali e religiose, spesso variabili da paese a paese. Tra i costumi, le pratiche e i simboli familiari del Natale sono presenti il presepe, l'albero natalizio, la figura di Babbo Natale, il calendario dell'Avvento, lo scambio di auguri e di doni. Il presepe, derivato da rappresentazioni medievali che la tradizione fa risalire a san Francesco d'Assisi, è una ricostruzione figurativa della natività di Gesù ed è una tradizione particolarmente radicata in Italia. L'albero di Natale, altro simbolo del Natale, è un abete (o altra conifera sempreverde) addobbato con piccoli oggetti colorati (soprattutto palle di diversi colori), luci, festoni, dolciumi, piccoli regali impacchettati e altro. Le origini vengono in genere fatte risalire al mondo tedesco nel XVI secolo, sulla base di preesistenti tradizioni cristiane e pagane. Verso il secolo XI si diffuse nell'Europa del Nord l'uso di allestire rappresentazioni (sacre rappresentazioni o misteri) che riproponevano episodi tratti dalla Bibbia. Nel periodo d'Avvento, una rappresentazione molto richiesta era legata al brano della Genesi sulla creazione. Per simboleggiare l'albero «della conoscenza del bene e del male» del giardino dell'Eden si ricorreva, data la regione (Nord Europa) e la stagione, ad un abete sul quale si appendevano dei frutti. Da quell'antica tradizione si giunse via via all'albero di Natale dei giorni nostri, di cui si ha una prima documentazione certa risalente al1512 in Alsazia. Babbo Natale, presente in molte culture, è un anziano dalla barba bianca che distribuisce i doni ai bambini, di solito la sera della vigilia di Natale. Deriva dalla figura storica di san Nicola di Bari, ma nella sua forma moderna si è diffuso a partire dal XIX secolo negli Stati Uniti: un ruolo importante nella definizione della sua figura ebbe la poesia A Visit from Saint Nicholas, pubblicata nel 1823 e attribuita allo scrittore neyorkese Clement Clarke Moore, nella quale Babbo Natale venne proposto ai lettori con le fattezze che oggi conosciamo. Molte tradizioni natalizie sono infine legate alla musica (canti natalizi come Adeste fideles, Tu scendi dalle stelle, Quanno nascette Ninno, Jingle Bells, Les anges dans nos campagnes), a particolari piante (l'agrifoglio, il vischio, la stella di Natale) e pietanze sia dolci (panettone, pandoro e altri dolci natalizi) che salate (zampone, cotechino). 
+            </p>
+            <h2>DELLA FESTA</h2>
+            <p class="testo">
+                Alcuni riferimenti poco certi sulla festività del Natale risalgono al IV secolo. La prima menzione certa della Natività di Cristo con la data del 25 dicembre risale invece al 336, e la si riscontra nel Chronographus, redatto intorno alla metà del IV secolo dal letterato romano Furio Dionisio Filocalo. Le origini storiche della festa non sono note] e sono state spiegate con varie ipotesi. Probabilmente la sua data venne fissata al 25 dicembre per sostituire la festa del Natalis Solis Invicti con la celebrazione della nascita di Cristo, indicato nel Libro di Malachia come nuovo "sole di Giustizia" (cfr. Malachia III,20). Sono state proposte anche soluzioni diverse, sia in relazione ad influenze ebraiche che a tradizioni interne al cristianesimo. Le diverse ipotesi possono coesistere[. La tradizione cristiana si intreccia con quella popolare e contadina, dal momento che nello stesso periodo si celebravano una serie di ricorrenze e riti legati al mondo rurale: infatti nell'antica Roma dal 17 al 24 si festeggiavano i Saturnali in onore di Saturno, dio dell'agricoltura, durante i quali avvenivano scambi di doni e sontuosi banchetti. 
+            </p>
+            <h2>LA DATA DI NASCITA DI GESU’</h2>
+            <p class="testo">
+                La data di nascita di Gesù è sconosciuta: il giorno non è indicato nei Vangeli né in altri scritti contemporanei. Fin dai primi secoli, i cristiani svilupparono comunque diverse tradizioni, basate anche su ragionamenti teologici. Questi fissavano il giorno della nascita in date diverse, tanto che il filosofo Clemente Alessandrino (150 - 215 d.c.) annotava in un suo scritto: "Non si contentano di sapere in che anno è nato il Signore, ma con curiosità troppo spinta vanno a cercarne anche il giorno" (Stromata, I,21,146). Il testo di Clemente registra comunque l'esistenza di una tradizione antica relativa a una nascita di Gesù in una data di mezzo inverno. Tale tradizione viene infatti fatta risalire ai seguaci di Basilide, attivo ad Alessandria prima del 150, che celebravano il 6 o il 10 gennaio, con il battesimo di Gesù, la sua nascita come Figlio di Dio. Il dibattito sulla data di nascita di Gesù, rilanciato nel Novecento], consente di offrire una prospettiva alternativa o complementare all’ipotesi dell’istituzione del Natale in sostituzione alla festa pagana del Sol Invictus. Un primo riferimento, per quanto controverso, al 25 dicembre come giorno di nascita di Gesù è presente in Ippolito di Roma nel 204, circa 70 anni prima di Aureliano, e lo studiosoPaul de Lagarde ha evidenziato come la data del 25 dicembre era presumibilmente calcolata in Occidente già nel 221, nella Cronografia di Sesto Giulio Africano. In generale, diversi studiosi hanno tentato una ricostruzione plausibile della nascita di Gesù, arrivando a ritenere verosimile il 25 dicembre. Tuttavia è stato grazie alle ricerche di Shemarjahu Talmon, dell'Università Ebraica di Gerusalemme che furono compiuti concreti passi avanti in questo senso. Talmon è stato infatti in grado di ricostruire le turnazioni sacerdotali degli ebrei e applicarle al calendario gregoriano sulla base dello studio del Libro dei Giubilei recentemente scoperto a Qumran. Lo studioso israeliano riuscì a stabilire che la data di nascita di Gesù potrebbe quindi essere il 25 dicembre. Di rilievo anche una possibile lettura simbolica della data di nascita. Dato che la data della morte di Gesù nei Vangeli si colloca tra il 25 marzo e il 6 aprile del nostro calendario, per calcolare la data di nascita di Gesù secondo alcuni studiosi si sarebbe seguita la credenza che la morte sia avvenuta nell'anniversario della sua venuta al mondo. Secondo questa ipotesi, per la festività del Natale si calcolò che Gesù fosse morto nell'anniversario della sua Incarnazione o concezione (non della sua nascita), e così si pensò che la sua data di nascita dovesse cadere nove mesi dopo la data del Venerdì Santo, tra il 25 dicembre e il 6 gennaio.
+            </p>
+            <div id="re_magi"></div>
+        </div>
+    </div>
+  </body>
+</html>
+<!--
+Realizzato (con html5) da: Morelli Saverio e Galgano Leonardo - Anno: 2017-18 Classe 5Bi
+Realizzato precedemente (con flash player) da: Menzella Antonio - Anno 2015-16 Classe 5Ci
+-->
